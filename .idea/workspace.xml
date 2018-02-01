@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce810ed-0c55-4cce-b21d-b8342d64e9cc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/misk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hello-lagom-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hello-lagom-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hello-lagom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hello-lagom.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbt-dist/conf/sbtconfig.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbt-dist/conf/sbtopts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbt.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -63,17 +54,42 @@
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="405">
+              <caret line="45" column="161" lean-forward="true" selection-start-line="45" selection-start-column="161" selection-end-line="45" selection-end-column="161" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="misk" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HellolagomService.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="58" column="202" lean-forward="true" selection-start-line="58" selection-start-column="202" selection-end-line="58" selection-end-column="202" />
+              <folding>
+                <element signature="e#586#654#0" expanded="true" />
+                <element signature="e#712#853#0" expanded="true" />
+                <element signature="e#924#970#0" expanded="true" />
+                <element signature="n#!!doc;n#GreetingMessageChanged#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misk" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/misk">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="$plus$" column="31" lean-forward="true" selection-start-line="$plus$" selection-start-column="31" selection-end-line="$plus$" selection-end-column="31" />
+            <state>
+              <caret column="77" lean-forward="true" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -96,35 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HellolagomService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala">
+      <file leaf-file-name="HellolagomServiceImpl.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomServiceImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-              <folding>
-                <element signature="e#586#654#0" expanded="true" />
-                <element signature="e#712#853#0" expanded="true" />
-                <element signature="e#924#970#0" expanded="true" />
-                <element signature="n#!!doc;n#GreetingMessageChanged#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HellolagomStreamService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-stream-api/src/main/scala/com/example/hellostream/api/HellolagomStreamService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HellolagomStreamServiceImpl.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-stream-impl/src/main/scala/com/example/hellostream/impl/HellolagomStreamServiceImpl.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+            <state relative-caret-position="375">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -134,15 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Function1.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Function1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -158,6 +141,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>9000</find>
@@ -171,8 +161,10 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/project/build.properties" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/misk" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/q.html" />
+        <option value="$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala" />
       </list>
     </option>
   </component>
@@ -206,6 +198,150 @@
             <path>
               <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-lagom-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
@@ -709,6 +845,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -733,7 +870,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.q.html">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$USER_HOME$/idea-IU-145.258.11/bin/appletviewer.policy" />
     </configuration>
@@ -756,6 +893,7 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="q.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hello-lagom/q.html" />
     <configuration name="Run" type="SbtRunConfiguration" factoryName="sbt Task">
       <setting name="tasks" value="runAll" />
       <setting name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled" />
@@ -863,6 +1001,15 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <list>
+      <item itemvalue="sbt Task.Run" />
+      <item itemvalue="JavaScript Debug.q.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.q.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="lastUpdateTimestamp" value="1517486475851" />
@@ -1046,7 +1193,7 @@
       <workItem from="1517486253452" duration="3454000" />
       <workItem from="1517490066783" duration="2615000" />
       <workItem from="1517498981227" duration="125000" />
-      <workItem from="1517499788106" duration="1582000" />
+      <workItem from="1517499788106" duration="3258000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1517486285447</created>
@@ -1069,11 +1216,25 @@
       <option name="project" value="LOCAL" />
       <updated>1517486363677</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <created>1517501375771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517501375771</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".">
+      <created>1517501622765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1517501622765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7776000" />
+    <option name="totallyTimeSpent" value="9452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="8" width="2560" height="1440" extended-state="6" />
@@ -1101,8 +1262,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32977098" />
-      <window_info active="true" content_ui="combo" x="1871" y="72" width="620" height="1306" id="Project" order="0" type="WINDOWED" visible="true" weight="0.24980111" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32977098" />
+      <window_info content_ui="combo" x="1871" y="72" width="620" height="1306" id="Project" order="0" type="WINDOWED" visible="true" weight="0.24980111" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -1131,13 +1292,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello-lagom-stream-impl/src/main/scala/com/example/hellostream/impl/HellolagomStreamServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-api_2.12/srcs/lagom-scaladsl-api_2.12-1.4.0-sources.jar!/com/lightbend/lagom/scaladsl/api/ServiceCall.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1341,14 +1495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/build.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1422,37 +1568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-api_2.12/srcs/lagom-scaladsl-api_2.12-1.4.0-sources.jar!/com/lightbend/lagom/scaladsl/api/Descriptor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomEntity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-          <folding>
-            <element signature="e#586#654#0" expanded="true" />
-            <element signature="e#712#853#0" expanded="true" />
-            <element signature="e#924#970#0" expanded="true" />
-            <element signature="n#!!doc;n#GreetingMessageChanged#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1505,17 +1624,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/misk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state>
+          <caret column="77" lean-forward="true" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/misk">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="$plus$" column="31" lean-forward="true" selection-start-line="$plus$" selection-start-column="31" selection-end-line="$plus$" selection-end-column="31" />
+        <state relative-caret-position="405">
+          <caret line="45" column="161" lean-forward="true" selection-start-line="45" selection-start-column="161" selection-end-line="45" selection-end-column="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomEntity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="136" column="62" selection-start-line="136" selection-start-column="62" selection-end-line="136" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="76" column="43" lean-forward="true" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="58" column="202" lean-forward="true" selection-start-line="58" selection-start-column="202" selection-end-line="58" selection-end-column="202" />
+          <folding>
+            <element signature="e#586#654#0" expanded="true" />
+            <element signature="e#712#853#0" expanded="true" />
+            <element signature="e#924#970#0" expanded="true" />
+            <element signature="n#!!doc;n#GreetingMessageChanged#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

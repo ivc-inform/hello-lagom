@@ -19,13 +19,12 @@ object HellolagomService  {
 trait HellolagomService extends Service {
 
   /**
-    * Example: curl http://localhost:9000/api/hello/Alice
+    * Example: curl http://localhost:9010/api/hello/Alice
     */
   def hello(id: String): ServiceCall[NotUsed, String]
 
   /**
-    * Example: curl -H "Content-Type: application/json" -X POST -d '{"message":
-    * "Hi"}' http://localhost:9000/api/hello/Alice
+    * Example: curl -H "Content-Type: application/json" -X POST -d '{"message": "Hi"}' http://localhost:9010/api/hello/Alice
     */
   def useGreeting(id: String): ServiceCall[GreetingMessage, Done]
 
