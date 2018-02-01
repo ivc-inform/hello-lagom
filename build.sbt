@@ -1,4 +1,4 @@
-import scala.concurrent.duration._
+
 
 organization in ThisBuild := "com.example"
 version in ThisBuild := "1.0-SNAPSHOT"
@@ -6,9 +6,8 @@ version in ThisBuild := "1.0-SNAPSHOT"
 // the Scala version that will be used for cross-compiled libraries
 scalaVersion in ThisBuild := "2.12.4"
 lagomServiceGatewayPort in ThisBuild := 9010
-//lagomCassandraPort in ThisBuild := 9042
-lagomCassandraMaxBootWaitingTime in ThisScope := 100.seconds
 lagomCassandraEnabled in ThisBuild := false
+lagomUnmanagedServices in ThisBuild := Map("cas_native" -> "http://localhost:9042")
 
 val macwire = "com.softwaremill.macwire" %% "macros" % "2.3.0" % "provided"
 val scalaTest = "org.scalatest" %% "scalatest" % "3.0.4" % Test
