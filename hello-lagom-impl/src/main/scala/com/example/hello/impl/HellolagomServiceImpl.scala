@@ -1,11 +1,13 @@
 package com.example.hello.impl
 
 import com.example.hello.api
-import com.example.hello.api.{HellolagomService}
+import com.example.hello.api.HellolagomService
 import com.lightbend.lagom.scaladsl.api.ServiceCall
 import com.lightbend.lagom.scaladsl.api.broker.Topic
 import com.lightbend.lagom.scaladsl.broker.TopicProducer
 import com.lightbend.lagom.scaladsl.persistence.{EventStreamElement, PersistentEntityRegistry}
+
+import scala.concurrent.Future
 
 /**
   * Implementation of the HellolagomService.
