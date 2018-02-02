@@ -9,7 +9,7 @@ class HellolagomServiceSpec extends AsyncWordSpec with Matchers with BeforeAndAf
 
   private val server = ServiceTest.startServer(
     ServiceTest.defaultSetup
-      .withCassandra()
+      .withCassandra(true)
   ) { ctx =>
     new HellolagomApplication(ctx) with LocalServiceLocator
   }
