@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ce810ed-0c55-4cce-b21d-b8342d64e9cc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hello-lagom-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hello-lagom-build.iml" afterDir="false" />
+    <list default="true" id="4ce810ed-0c55-4cce-b21d-b8342d64e9cc" name="Default" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/hello-lagom-build.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -53,20 +53,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="112" lean-forward="true" selection-start-line="27" selection-start-column="112" selection-end-line="27" selection-end-column="112" />
+            <state relative-caret-position="525">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/build.properties">
+      <file leaf-file-name="plugins.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="$plus$" column="19" selection-start-line="$plus$" selection-start-column="19" selection-end-line="$plus$" selection-end-column="19" />
+              <caret line="$plus$" column="55" selection-start-line="$plus$" selection-start-column="13" selection-end-line="$plus$" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/build.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="94" lean-forward="true" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -80,72 +89,6 @@
                 <element signature="e#586#654#0" expanded="true" />
                 <element signature="n#!!doc;n#GreetingMessageChanged#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Service.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-api_2.12/srcs/lagom-scaladsl-api_2.12-1.4.0-sources.jar!/com/lightbend/lagom/scaladsl/api/Service.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1945">
-              <caret line="240" column="237" selection-start-line="240" selection-start-column="237" selection-end-line="240" selection-end-column="237" />
-              <folding>
-                <element signature="e#883#1024#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Descriptor.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-api_2.12/srcs/lagom-scaladsl-api_2.12-1.4.0-sources.jar!/com/lightbend/lagom/scaladsl/api/Descriptor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="295" column="8" selection-start-line="295" selection-start-column="8" selection-end-line="295" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Method.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/reflect/Method.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HellolagomEntity.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomEntity.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1115">
-              <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HellolagomServiceImpl.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomServiceImpl.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HellolagomEntitySpec.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/test/scala/com/example/hello/impl/HellolagomEntitySpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HellolagomStreamService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-stream-api/src/main/scala/com/example/hellostream/api/HellolagomStreamService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -177,10 +120,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/misk" />
         <option value="$PROJECT_DIR$/q.html" />
-        <option value="$PROJECT_DIR$/project/build.properties" />
-        <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/project/build.properties" />
       </list>
     </option>
   </component>
@@ -758,7 +701,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1517564476167" />
+    <option name="lastUpdateTimestamp" value="1517567317562" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -941,7 +884,7 @@
       <workItem from="1517498981227" duration="125000" />
       <workItem from="1517499788106" duration="4140000" />
       <workItem from="1517559955752" duration="112000" />
-      <workItem from="1517562530267" duration="2610000" />
+      <workItem from="1517562530267" duration="3641000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1517486285447</created>
@@ -999,11 +942,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517563776591</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=".">
+      <created>1517565163238</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517565163238</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13056000" />
+    <option name="totallyTimeSpent" value="14087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="8" width="2560" height="1440" extended-state="6" />
@@ -1033,7 +983,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32977098" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2816794" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34122136" />
       <window_info content_ui="combo" x="1883" y="72" width="596" height="1294" id="Project" order="0" type="WINDOWED" visible="true" weight="0.24980111" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32977098" />
       <window_info id="JRebel" order="2" side_tool="true" />
@@ -1354,38 +1304,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/build.properties">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="$plus$" column="19" selection-start-line="$plus$" selection-start-column="19" selection-end-line="$plus$" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="$plus$" column="66" selection-start-line="$plus$" selection-start-column="66" selection-end-line="$plus$" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomEntity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1115">
-          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/test/scala/com/example/hello/impl/HellolagomEntitySpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="525">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1396,14 +1318,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala">
+    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/test/scala/com/example/hello/impl/HellolagomEntitySpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-          <folding>
-            <element signature="e#586#654#0" expanded="true" />
-            <element signature="n#!!doc;n#GreetingMessageChanged#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="495">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomEntity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1115">
+          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1431,10 +1363,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="112" lean-forward="true" selection-start-line="27" selection-start-column="112" selection-end-line="27" selection-end-column="112" />
+        <state relative-caret-position="285">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          <folding>
+            <element signature="e#586#654#0" expanded="true" />
+            <element signature="n#!!doc;n#GreetingMessageChanged#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="$plus$" column="55" selection-start-line="$plus$" selection-start-column="13" selection-end-line="$plus$" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="94" lean-forward="true" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
         </state>
       </provider>
     </entry>
