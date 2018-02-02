@@ -1,4 +1,4 @@
 // The Lagom plugin
-addSbtPlugin("com.lightbend.lagom" % "lagom-sbt-plugin" % "1.4.0-SNAPSHOT")
+addSbtPlugin("com.lightbend.lagom" % "lagom-sbt-plugin" % "1.4.0.1-SNAPSHOT")
 // Needed for importing the project into Eclipse
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "5.2.4")
