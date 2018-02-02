@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df8653b-0423-48e2-b763-2f2a0f8cef99" name="Default" comment=".">
+    <list default="true" id="6df8653b-0423-48e2-b763-2f2a0f8cef99" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomLoader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomLoader.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -50,19 +51,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HellolagomService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="26" column="100" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
-              <folding>
-                <element signature="e#589#661#0" expanded="true" />
-                <element signature="e#937#987#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="plugins.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,32 +60,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/build.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="86" lean-forward="true" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HellolagomStreamService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-stream-api/src/main/scala/com/example/hellostream/api/HellolagomStreamService.scala">
+      <file leaf-file-name="HellolagomLoader.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomLoader.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AhcWSComponents.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-ahc-ws_2.12/srcs/play-ahc-ws_2.12-2.6.11-sources.jar!/play/api/libs/ws/ahc/AhcWSComponents.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
-                <element signature="n#!!doc;n#HellolagomStreamService#0;n#!!top" expanded="true" />
+                <element signature="e#277#337#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LagomApplicationLoader.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-server_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-server_2.12-sources.jar!/com/lightbend/lagom/scaladsl/server/LagomApplicationLoader.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="108" column="97" selection-start-line="108" selection-start-column="97" selection-end-line="108" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScaladslServerMacroImpl.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-server_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-server_2.12-sources.jar!/com/lightbend/lagom/internal/scaladsl/server/ScaladslServerMacroImpl.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScaladslClientMacroImpl.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-client_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-client_2.12-sources.jar!/com/lightbend/lagom/internal/scaladsl/client/ScaladslClientMacroImpl.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.macwire/macros_2.12/srcs/macros_2.12-2.3.0-sources.jar!/com/softwaremill/macwire/package.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="159" lean-forward="true" selection-start-line="30" selection-start-column="159" selection-end-line="30" selection-end-column="159" />
             </state>
           </provider>
         </entry>
@@ -105,44 +129,17 @@
       <file leaf-file-name="HellolagomEntity.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomEntity.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CassandraReadJournalConfig.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence-cassandra_2.12/srcs/akka-persistence-cassandra_2.12-0.59-sources.jar!/akka/persistence/cassandra/query/CassandraReadJournalConfig.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+            <state relative-caret-position="282">
+              <caret line="183" column="7" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Service.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-api_2.12/srcs/lagom-scaladsl-api_2.12-1.4.0-sources.jar!/com/lightbend/lagom/scaladsl/api/Service.scala">
+        <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-api_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-api_2.12-sources.jar!/com/lightbend/lagom/scaladsl/api/Service.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Descriptor.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-api_2.12/srcs/lagom-scaladsl-api_2.12-1.4.0-sources.jar!/com/lightbend/lagom/scaladsl/api/Descriptor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="256" column="15" selection-start-line="256" selection-start-column="15" selection-end-line="256" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HellolagomServiceImpl.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomServiceImpl.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state relative-caret-position="-1785">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -168,6 +165,7 @@
         <option value="$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomServiceImpl.scala" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/project/build.properties" />
+        <option value="$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomLoader.scala" />
       </list>
     </option>
   </component>
@@ -200,11 +198,6 @@
             <path>
               <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-lagom" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
@@ -500,6 +493,399 @@
             <path>
               <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-api_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-api_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-api_2.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-api_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-api_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-api_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-api_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-api_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-api_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-api_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-api_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-api_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-api_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-client_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-client_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-client_2.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-client_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-client_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-client_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-client_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-client_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-client_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-client_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-client_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-client_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-client_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-client_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-client_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-dev-mode_2.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-dev-mode_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-dev-mode_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-dev-mode_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-dev-mode_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-dev-mode_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-dev-mode_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-dev-mode_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-dev-mode_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-dev-mode_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+              <item name="devmode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-server_2.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-server_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-server_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-server_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-server_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-server_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-server_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-server_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.lightbend.lagom:lagom-scaladsl-server_2.12:1.4.0.1-SNAPSHOT:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="lagom-scaladsl-server_2.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lightbend" type="462c0819:PsiDirectoryNode" />
+              <item name="lagom" type="462c0819:PsiDirectoryNode" />
+              <item name="scaladsl" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.softwaremill.macwire:macros_2.12:2.3.0:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.softwaremill.macwire:macros_2.12:2.3.0:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="macros_2.12-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.softwaremill.macwire:macros_2.12:2.3.0:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="macros_2.12-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.softwaremill.macwire:macros_2.12:2.3.0:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="macros_2.12-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="softwaremill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.softwaremill.macwire:macros_2.12:2.3.0:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="macros_2.12-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="softwaremill" type="462c0819:PsiDirectoryNode" />
+              <item name="macwire" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.typesafe.play:play-ahc-ws_2.12:2.6.11:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.typesafe.play:play-ahc-ws_2.12:2.6.11:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="play-ahc-ws_2.12-2.6.11.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.typesafe.play:play-ahc-ws_2.12:2.6.11:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="play-ahc-ws_2.12-2.6.11.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.typesafe.play:play-ahc-ws_2.12:2.6.11:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="play-ahc-ws_2.12-2.6.11.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.typesafe.play:play-ahc-ws_2.12:2.6.11:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="play-ahc-ws_2.12-2.6.11.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.typesafe.play:play-ahc-ws_2.12:2.6.11:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="play-ahc-ws_2.12-2.6.11.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-lagom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: com.typesafe.play:play-ahc-ws_2.12:2.6.11:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="play-ahc-ws_2.12-2.6.11.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="ahc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -836,7 +1222,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517569412901</updated>
-      <workItem from="1517569418735" duration="7170000" />
+      <workItem from="1517569418735" duration="9068000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1517577388691</created>
@@ -852,11 +1238,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517578745944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".">
+      <created>1517578856848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517578856848</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7170000" />
+    <option name="totallyTimeSpent" value="9068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="8" width="2560" height="1440" extended-state="6" />
@@ -988,13 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomLoader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-api_2.12/srcs/lagom-scaladsl-api_2.12-1.4.0-sources.jar!/com/lightbend/lagom/scaladsl/api/Descriptor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -1015,16 +1401,6 @@
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc;n#HellolagomStreamService#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-ahc-ws_2.12/srcs/play-ahc-ws_2.12-2.6.11-sources.jar!/play/api/libs/ws/ahc/AhcWSComponents.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="e#277#337#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1053,20 +1429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomEntity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-lagom-api/src/main/scala/com/example/hello/api/HellolagomService.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1092,6 +1454,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="86" lean-forward="true" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-dev-mode_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-dev-mode_2.12-sources.jar!/com/lightbend/lagom/scaladsl/devmode/LagomDevModeComponents.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-dev-mode_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-dev-mode_2.12-sources.jar!/com/lightbend/lagom/internal/scaladsl/registry/ServiceRegistration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-dev-mode_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-dev-mode_2.12-sources.jar!/com/lightbend/lagom/internal/scaladsl/registry/ServiceRegistry.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-api_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-api_2.12-sources.jar!/com/lightbend/lagom/scaladsl/api/Service.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1785">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1099,10 +1496,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/build.properties">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="86" lean-forward="true" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+        <state relative-caret-position="135">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomEntity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="183" column="7" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.macwire/macros_2.12/srcs/macros_2.12-2.3.0-sources.jar!/com/softwaremill/macwire/internals/ConstructorCrimper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="12" column="86" lean-forward="true" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.macwire/macros_2.12/srcs/macros_2.12-2.3.0-sources.jar!/com/softwaremill/macwire/MacwireMacros.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.macwire/macros_2.12/srcs/macros_2.12-2.3.0-sources.jar!/com/softwaremill/macwire/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="159" lean-forward="true" selection-start-line="30" selection-start-column="159" selection-end-line="30" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-server_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-server_2.12-sources.jar!/com/lightbend/lagom/scaladsl/server/LagomApplicationLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="108" column="97" selection-start-line="108" selection-start-column="97" selection-end-line="108" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-client_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-client_2.12-sources.jar!/com/lightbend/lagom/internal/scaladsl/client/ScaladslClientMacroImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.lightbend.lagom/lagom-scaladsl-server_2.12/1.4.0.1-SNAPSHOT/srcs/lagom-scaladsl-server_2.12-sources.jar!/com/lightbend/lagom/internal/scaladsl/server/ScaladslServerMacroImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-ahc-ws_2.12/srcs/play-ahc-ws_2.12-2.6.11-sources.jar!/play/api/libs/ws/ahc/AhcWSComponents.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#277#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-lagom-impl/src/main/scala/com/example/hello/impl/HellolagomLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
         </state>
       </provider>
     </entry>
